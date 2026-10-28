@@ -1,0 +1,5 @@
+# ThesisOS Data Sources & Provenance Policy (`docs/data_sources.md`)
+
+1. **Primary Statutory Filings**: All historical financial statement lines in `data/demo/financial_facts.csv` are compiled from the audited Ind-AS Consolidated Financial Statements published in the Integrated Annual Reports of **Tata Consultancy Services Ltd. (FY2021–FY2025)** and **Infosys Ltd. (FY2024–FY2025)** available via [NSE Corporate Filings — Annual Reports](https://www.nseindia.com/companies-listing/corporate-filings-annual-reports).
+2. **Row-Level Citation Tracking**: Every observation stores `source_id`, `source_url`, `source_page`, `verification_date`, and `verification_status`.
+3. **Market Price Compliance**: In accordance with the [NSE Data Sharing & Usage Policy](https://www.nseindia.com/static/market-data/nse-data-policy), ThesisOS does not redistribute live or delayed exchange price feeds. All valuation modules use an explicitly dated Reference Closing Price input (`reference_price_inr` and `reference_price_date`) that users can modify at any time.
