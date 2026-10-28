@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Secrets & Environment Variables (NEVER COMMIT)
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Temporary / Private User Uploads & Local Scratch Data
+data/uploads/
+tmp/
+*.tmp
+*.log
+*.sqlite
+*.db
+*.duckdb
+
+# OS & Editor metadata
+.DS_Store
+Thumbs.db
+.vscode/settings.json
