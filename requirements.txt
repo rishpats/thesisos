@@ -1,0 +1,9 @@
+streamlit>=1.38.0,<2.0.0
+pandas>=2.2.0,<3.0.0
+numpy>=1.26.0,<3.0.0
+plotly>=5.22.0,<6.0.0
+pydantic>=2.7.0,<3.0.0
+pypdf>=4.2.0,<6.0.0
+pdfplumber>=0.11.0,<1.0.0
+scikit-learn>=1.5.0,<2.0.0
+requests>=2.32.0,<3.0.0
